@@ -21,14 +21,6 @@
                         <ul class="e-maintenance-list">
                             - CMS (Content management system) : Een belangrijk onderdeel dat de gebruiker toestaat om snel en efficient de inhoud van een pagina bij te werken
                             en / of aan te passen. Ideaal voor als je ervoor wilt zorgen dat uw site up-to-date is met de nieuwste ontwikkelingen en het meest recente nieuws!
-                            <br>
-                            - JavaScript
-                            <br>
-                            - JSON
-                            <br>
-                            - JQuery
-                            <br>
-                            - MySQL
                         </ul>
                     </ul>
             </div>
