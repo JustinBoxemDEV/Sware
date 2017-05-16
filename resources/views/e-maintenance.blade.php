@@ -6,19 +6,21 @@
         <div class="services-block">
             <br>
             <div class="page-header">
-                <h1 class="webdevelopment-page-header">&LT;/ Webdevelopment&GT;</h1>
+                <h1 class="e-maintenance-page-header">&LT;/ E-Maintenance&GT;</h1>
             </div>
-            <div class="webdevelopment-text">
+            <div class="e-maintenance-text">
                 <h2>
-                    &LT;S/ Ware&GT; heeft de oplossing voor al uw web-based softwareproblemen. Ook bieden wij development op het gebied van web-based webapplicaties.
+                    &LT;S/ Ware&GT; heeft de oplossing voor al uw web-based software problemen. Om deze reden kunt u &LT;S/ Ware&GT; vragen om voor uw pagina inhoud te zorgen,
+                    in de termen dat alles up-to-date blijft. Daarnaast kunnen wij ook software produceren die deze taak voor u makkelijk maakt.
                     <br>
                     <br>
-                    <h2 class="webdevelopment-subheader">Welke talen bieden we aan?</h2>
+                    <h2 class="e-maintenance-subheader">Welk onderhoud bieden wij?</h2>
                     <br>
                     <br>
                     <ul>
-                        <ul class="webdevelopment-list">
-                            - PHP
+                        <ul class="e-maintenance-list">
+                            - CMS (Content management system) : Een belangrijk onderdeel dat de gebruiker toestaat om snel en efficient de inhoud van een pagina bij te werken
+                            en / of aan te passen. Ideaal voor als je ervoor wilt zorgen dat uw site up-to-date is met de nieuwste ontwikkelingen en het meest recente nieuws!
                             <br>
                             - JavaScript
                             <br>
@@ -29,19 +31,6 @@
                             - MySQL
                         </ul>
                     </ul>
-                    <br>
-                    <h2 class="webdevelopment-subheader">In welke frameworks werken wij?</h2>
-                    <br>
-                    <br>
-                    <ul>
-                        <ul class="webdevelopment-list">
-                            - Laravel (PHP)
-                            <br>
-                            - Bootstrap (HTML, CSS, JS, JQuery)
-                        </ul>
-                    </ul>
-                    <br>
-                </h2>
             </div>
         </div>
     </div>

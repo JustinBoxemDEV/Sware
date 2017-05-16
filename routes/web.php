@@ -15,6 +15,7 @@ Route::get('/', 'PagesController@index');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/team', 'PagesController@team');
 Route::get('/webdevelopment', 'PagesController@webdevelopment');
+Route::get('/e-maintenance', 'PagesController@emaintenance');
 Route::get('/home', 'HomeController@index');
 
 Auth::routes();

@@ -21,4 +21,8 @@ class PagesController extends Controller
     public function webdevelopment(){
         return view('webdevelopment');
     }
+    
+    public function emaintenance(){
+        return view('e-maintenance');
+    }
 }
