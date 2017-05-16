@@ -113,6 +113,10 @@ body{
     font-size: 60px;
 }
 
+.e-maintenance-topic{
+    color: #0078d7;
+}
+
 .blockA{
     margin-left: -45%;
 }

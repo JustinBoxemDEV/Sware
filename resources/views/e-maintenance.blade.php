@@ -19,9 +19,11 @@
                     <br>
                     <ul>
                         <ul class="e-maintenance-list">
-                            - CMS (Content management system) : Een belangrijk onderdeel dat de gebruiker toestaat om snel en efficient de inhoud van een pagina bij te werken
-                            en / of aan te passen. Ideaal voor als je ervoor wilt zorgen dat uw site up-to-date is met de nieuwste ontwikkelingen en het meest recente nieuws!
+                            <h2 class="e-maintenance-topic">CMS (Content management system)</h2>
+                            Een belangrijk onderdeel dat de gebruiker toestaat om snel en efficient de inhoud van een pagina bij te werken
+                            en / of aan te passen. Ideaal voor als u ervoor wilt zorgen dat uw site up-to-date is met de nieuwste ontwikkelingen en het meest recente nieuws!
                         </ul>
+                        <br>
                     </ul>
             </div>
         </div>
