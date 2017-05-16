@@ -103,6 +103,8 @@ body{
 
 .e-maintenance-subheader{
     color: #0078d7;
+    text-align: center;
+    font-size: 40px;
 }
 
 .e-maintenance-list{
