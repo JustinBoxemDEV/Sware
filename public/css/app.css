@@ -95,6 +95,24 @@ body{
     font-size: 60px;
 }
 
+.e-maintenance-text{
+    text-align: left;
+    margin-left: 5%;
+    color: black;
+}
+
+.e-maintenance-subheader{
+    color: #0078d7;
+}
+
+.e-maintenance-list{
+    font-size: 25px;
+}
+
+.e-maintenance-page-header{
+    font-size: 60px;
+}
+
 .blockA{
     margin-left: -45%;
 }
