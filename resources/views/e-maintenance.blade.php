@@ -24,6 +24,13 @@
                             en / of aan te passen. Ideaal voor als u ervoor wilt zorgen dat uw site up-to-date is met de nieuwste ontwikkelingen en het meest recente nieuws!
                         </ul>
                         <br>
+                        <ul class="e-maintenance-list">
+                            <h2 class="e-maintenance-topic">Software Security</h2>
+                            &LT;S/ Ware&GT; biedt u de oplossing op het gebied van het veilig stellen van uw software en servers. Wij kunnen aan de slag om ervoor te zorgen dat
+                            uw server(s) bestand zijn tegen DDoS aanvallen alsmede als ook het veilig stellen van uw software. Zo houden wij de laatste security updates in de
+                            gaten om te kijken of uw systeem nog wel bestand is tegen de nieuwste ontwikkelingen van online aanvallen.
+                        </ul>
+                        <br>
                     </ul>
             </div>
         </div>
