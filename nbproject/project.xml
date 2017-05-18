@@ -3,7 +3,15 @@
     <type>org.netbeans.modules.php.project</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
-            <name>laravel</name>
+            <name>Sware</name>
         </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>JavaScript</word>
+            <word>MySQL</word>
+            <word>niveaus</word>
+            <word>wensen</word>
+            <word>werken</word>
+            <word>wij</word>
+        </spellchecker-wordlist>
     </configuration>
 </project>

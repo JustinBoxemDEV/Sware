@@ -1,95 +1,93 @@
-<!doctype html>
-<html lang="{{ config('app.locale') }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+@extends('layout')
+@section('content')
+<div class="row">
+    <div class="col-md-4">
+        <div class="blockA block">
+            <br>
+            <div class="page-header">
+                <h1> <span class="glyphicon glyphicon-check" aria-hidden="true"></span> &LT;/Ons doel&GT;</h1>
+            </div>
+            <div class="home-content">
+                <h3>
+                    Het doel van &LT;S/ Ware&GT; is om goede kwaliteit software
+                    af te leveren bij de klant in Emmen en omstreken. 
+                </h3>
+                <br>
+                <hr>
+                <h3>
+                    Ook bieden wij E-Maintenance en E-Cleaning aan; 
+                    dit zijn twee modules die niet duur zijn, maar vaak niet
+                    worden gewaarborgd door diverse software bedrijven.
+                </h3>
+                <br>
+                <hr>
+                <h3>
+                    Wij staan dus voor software en ondersteuning
+                    waarbij kwaliteit en efficienti&euml; centraal staat voor de
+                    klant.
+                </h3>
+                <br>
             </div>
         </div>
-    </body>
-</html>
+    </div>
+    <div class="col-md-4">
+        <div class="blockB block">
+            <br>
+            <div class="page-header">
+                <h1> <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> &LT;/Klantgericht&GT;</h1>
+            </div>
+            <div class="home-content">
+                <h3>
+                    &LT;S/ Ware&GT; 's klantbeleid is doelend op efficienti&euml;,
+                    flexibiliteit en snelheid.
+                    
+                </h3>
+                <br>
+                <hr>
+                <h3>
+                    Bij ons is de klant koning, en wij zijn er om naar uw wensen
+                    te luisteren. Heeft uw een opmerking of een ander probleem?
+                    Laat het ons weten!
+                </h3>
+                <br>
+                <hr>
+                <h3>
+                    Ook bieden wij goede communicatie. Contact tussen bedrijf en
+                    klant is erg belangrijk voor ons. Voor meer informatie, kijkt
+                    uw gerust op onze contact pagina.
+                </h3>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="blockC block">
+            <br>
+            <div class="page-header">
+                <h1> <span class="glyphicon glyphicon-book" aria-hidden="true"></span> &LT;/Pakketten&GT;</h1>
+            </div>
+            <div class="home-content">
+                <h3>
+                    &LT;S/ Ware&GT; levert haar diensten op verschillende niveaus
+                    aan, waardoor u als klant de regie in handen neemt over het
+                    pakket dat het beste bij uw wens(en) past.
+                </h3>
+                <br>
+                <hr>
+                <br>
+                <br>
+                <h3>
+                    Een lijst met onze pakketten:
+                </h3>
+                <br>
+                <h3 class="blockC-content-a">
+                    <a href="/pakketten/solo"><ul>[ : : Solo : : ]</ul></a>
+                    <a href="/pakketten/multi"><ul>[ : : Multi : : ]</ul></a>
+                    <a href="/pakketten/sware-plus"><ul>[ : : &LT;S/ Ware&GT; Plus : : ]</ul></a>
+                </h3>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
