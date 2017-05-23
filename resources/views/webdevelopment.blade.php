@@ -10,7 +10,7 @@
             </div>
             <div class="webdevelopment-text">
                 <h2>
-                    &LT;S/ Ware&GT; heeft de oplossing voor al uw web-based softwareproblemen. Ook bieden wij development op het gebied van web-based webapplicaties.
+                    &LT;S/ Ware&GT; heeft de oplossing voor al uw web-based softwareproblemen. Ook bieden wij development op het gebied van web-based applicaties.
                     <br>
                     <br>
                     <h2 class="webdevelopment-subheader">Welke talen bieden we aan?</h2>

@@ -19,16 +19,15 @@
                     <br>
                     <ul>
                         <ul class="e-cleaning-list">
-                            <h2 class="e-cleaning-topic">CMS (Content management system)</h2>
-                            Een belangrijk onderdeel dat de gebruiker toestaat om snel en efficient de inhoud van een pagina bij te werken
-                            en / of aan te passen. Ideaal voor als u ervoor wilt zorgen dat uw site up-to-date is met de nieuwste ontwikkelingen en het meest recente nieuws!
+                            <h2 class="e-cleaning-topic">Opschonen</h2>
+                            Wanneer uw computer traag is en/of applicaties vastlopen, is het van belang dat uw apparaat onderzocht wordt op de aanwezigheid van malware en
+                            virussen. Wij gaan graag voor u op jacht naar deze narigheden en roeien ze uit. Hiermee willen wij er zeker van zijn dat uw machine weer zoals nieuw wordt.
                         </ul>
                         <br>
                         <ul class="e-cleaning-list">
-                            <h2 class="e-cleaning-topic">Software Security</h2>
-                            &LT;S/ Ware&GT; biedt u de oplossing op het gebied van het veilig stellen van uw software en servers. Wij kunnen aan de slag om ervoor te zorgen dat
-                            uw server(s) bestand zijn tegen DDoS aanvallen alsmede als ook het veilig stellen van uw software. Zo houden wij de laatste security updates in de
-                            gaten om te kijken of uw systeem nog wel bestand is tegen de nieuwste ontwikkelingen van online aanvallen.
+                            <h2 class="e-cleaning-topic">Beveiligen</h2>
+                            &LT;S/ Ware&GT; biedt een beveiligingsmodule aan waarbij wij uw computer voorzien van een opruimdienst, een virusscanner en een malwarescanner.
+                            Deze bieden een uitkomst op de veiligheid van uw apparaat, en dat is wel zo belangrijk in deze tijd.
                         </ul>
                         <br>
                     </ul>

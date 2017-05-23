@@ -73,7 +73,6 @@
                                     <li><a href="/login"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>&nbsp&nbsp[ : : Inloggen : : ]</a></li>
                                     <li><a href="/register"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>&nbsp&nbsp[ : : Aanmelden : : ]</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="/sware-lidmaatschap"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>&nbsp&nbsp[ : : Waarom lid worden? : : ]</a></li>
                                 </ul>
                                 @else
                                 <a href="/inlog" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">[ : : <span class="glyphicon glyphicon-user" aria-hidden="true"></span> {{ Auth::user()->name }} : : ] <span class="caret"></span></a>

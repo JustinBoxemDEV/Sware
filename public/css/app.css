@@ -65,6 +65,7 @@ body{
 }
 
 .services-block{
+    padding-right: 10%;
     margin-top: 8%;
     border-style: groove;
     border-radius: 3%;
@@ -75,6 +76,7 @@ body{
     margin-left: -50%;
     min-height: 250px;
     opacity: 0.75;
+    text-align: center;
 }
 
 .webdevelopment-text{
@@ -158,7 +160,7 @@ body{
 }
 
 .blockC-content-a > a:hover {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
