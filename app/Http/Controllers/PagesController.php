@@ -25,4 +25,8 @@ class PagesController extends Controller
     public function emaintenance(){
         return view('e-maintenance');
     }
+    
+    public function ecleaning(){
+        return view('e-cleaning');
+    }
 }

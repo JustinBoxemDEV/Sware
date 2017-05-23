@@ -121,7 +121,7 @@
         <!-- Footer -->
         <footer class="navbar-bottom">
             <hr>
-            <h1>&LT;S/ Ware&GT;&trade; maakt gebruik van <a href="https://www.laravel.com"><img src="https://cdn4.iconfinder.com/data/icons/logos-3/256/laravel-128.png" width="30px" height="30px"></a> Laravel</h1>
+            <h1 class="footer-text">&LT;S/ Ware&GT;&trade; maakt gebruik van <a href="https://www.laravel.com"><img src="https://cdn4.iconfinder.com/data/icons/logos-3/256/laravel-128.png" width="30px" height="30px"></a> Laravel</h1>
         </footer>
 
     </body>

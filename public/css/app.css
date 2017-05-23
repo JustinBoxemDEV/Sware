@@ -119,6 +119,30 @@ body{
     color: #0078d7;
 }
 
+.e-cleaning-text{
+    text-align: left;
+    margin-left: 5%;
+    color: black;
+}
+
+.e-cleaning-subheader{
+    color: #0078d7;
+    text-align: center;
+    font-size: 40px;
+}
+
+.e-cleaning-list{
+    font-size: 25px;
+}
+
+.e-cleaning-page-header{
+    font-size: 60px;
+}
+
+.e-cleaning-topic{
+    color: #0078d7;
+}
+
 .blockA{
     margin-left: -45%;
 }
@@ -189,7 +213,7 @@ table{
 
 .team-block{
     padding-top: 5%;
-    height: 750px;
+    height: 375px;
     width: 100%;
     background-color: white;
     border-style: groove;
@@ -200,6 +224,10 @@ table{
 
 .team-text-div{
     text-align: center;
+}
+
+.footer-text{
+    font-size: 20px;
 }
 
 .navbar-bottom{
