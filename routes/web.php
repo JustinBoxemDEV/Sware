@@ -12,7 +12,8 @@
 */
 
 Route::get('/', 'PagesController@index');
-Route::get('/contact', 'PagesController@contact');
+Route::get('/contact', 'PagesController@getcontact');
+Route::post('/contact', 'PagesController@postcontact');
 Route::get('/team', 'PagesController@team');
 Route::get('/webdevelopment', 'PagesController@webdevelopment');
 Route::get('/e-maintenance', 'PagesController@emaintenance');
