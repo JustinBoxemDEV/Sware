@@ -9,19 +9,20 @@
                 <h1>&LT;/Laat je horen!&GT;</h1>
             </div>
             <form action="{{ url('contact') }}" method="POST">
+                {{ csrf_field() }}
                 <div class="form-group">
                     <label name="email"><h2>Uw emailadres:</h2></label>
-                    <input id="email" name="email" class="form-control">
+                    <input id="email" name="email" placeholder="Wat is uw emailadres?" class="form-control">
                 </div>
                 
                 <div class="form-group">
                     <label name="subject"><h2>Onderwerp:</h2></label>
-                    <input id="subject" name="subject" class="form-control">
+                    <input id="subject" name="subject" placeholder="Het onderwerp is?" class="form-control">
                 </div>
                 
                 <div class="form-group">
                     <label name="message"><h2>Bericht:</h2></label>
-                    <textarea id="message" name="message" class="form-control">Voer uw bericht in...</textarea>
+                    <textarea id="message" name="message" placeholder="Voer uw bericht in..." class="form-control"></textarea>
                 </div>
                 
                 <input type="submit" value="Verstuur email" class="btn btn-toolbar"></input>

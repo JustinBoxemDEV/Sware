@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Request;
+use Mail;
 
 class PagesController extends Controller
 { 
@@ -23,8 +23,16 @@ class PagesController extends Controller
                 'message' => 'required|min:10'
             ]);
         
-        Mail::queue('emails.contact', $data, function(){
-            
+        $data = array(
+            'email' => $request->email,
+            'subject' => $request->subject,
+            'bodyMessage' => $request->message
+        );
+        
+        Mail::send('emails.contact', $data, function($message) use ($data){
+            $message->from('sware.contact@gmail.com' | $data['email']);
+            $message->to('sware.contact@gmail.com');
+            $message->subject($data['subject']);
         });
     }
     
