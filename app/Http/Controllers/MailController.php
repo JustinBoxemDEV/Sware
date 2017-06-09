@@ -2,11 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use Input;
-use App\Mail\GenericMail;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
-use App\Http\Controllers\Controller;
+use Mail;
 
 class MailController extends Controller {
 
@@ -16,16 +13,30 @@ class MailController extends Controller {
      * @param  Request  $request
      * @param  int  $emails
      * @return Response
+      $contactEmail = "sware.contact@gmail.com";
+      $sender = Input::get('sender');
+      $message = Input::get('mailMsg');
      */
+    
     public function sendMail(Request $request) {
-        // Define required data
+    $this->validate($request, [
 
-        $contactEmail = "sware.contact@gmail.com";
-        $sender = Input::get('sender');
-        $message = Input::get('mailMsg');
+      'email' => 'required|email',
+      'subject' => 'required|min:3',
+      'message' => 'required|min:10'
+    ]);
 
-        // Send email...
-        Mail::to($contactEmail)->send(new GenericMail($message, $sender));
-    }
+    $data = array(
+      'email' => $request->email,
+      'subject' => $request->subject,
+      'mailbody' => $request->message
+    );
+
+    Mail::send('emails.contact', $data, function($message) use ($data) {
+      $message->from($data['email']);
+      $message->to('sware.contact@gmail.com');
+      $message->subject($data['subject']);
+    });
+  }
 
 }

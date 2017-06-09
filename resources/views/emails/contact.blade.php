@@ -3,5 +3,5 @@
 <h3>Onderwerp: {{ $subject }}</h3>
 
 <div>
-    {{ $bodyMessage }}
+    {{ $mailbody }}
 </div>
