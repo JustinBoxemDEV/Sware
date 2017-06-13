@@ -28,7 +28,7 @@
                                         <h3><a href="https://github.com/JustinBoxemDEV/" target="_blank"><img src="images/widgets/github.png" height="62.5" width="62.5"></a></h3>
                                     </div>
                                     <div class="col-md-2">
-                                        <h3><a href="mailto:sware.contact.justinboxem@gmail.com"><img src="images/widgets/servlet.png" height="62.5" width="62.5"></a></h3>
+                                        <h3><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sware.contact.justinboxem@gmail.com" target="_blank"><img src="images/widgets/servlet.png" height="62.5" width="62.5"></a></h3>
                                     </div>
                                     <div class="col-md-2"></div>
                                 </div>    

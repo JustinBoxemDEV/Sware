@@ -4,10 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class UPController extends Controller
 {
-    
-        public function __construct()
+     public function __construct()
     {
         $this->middleware('auth');
     }
@@ -17,9 +16,8 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function homepage()
+    public function upHome()
     {
-        return view('welcome');
+        return view('up.index');
     }
 }
-

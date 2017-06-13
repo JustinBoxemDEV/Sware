@@ -13,11 +13,10 @@
 
 Route::get('/', 'PagesController@index');
 Route::get('/contact', 'PagesController@getcontact');
-Route::post('/contact', 'MailController@sendMail');
 Route::get('/team', 'PagesController@team');
 Route::get('/webdevelopment', 'PagesController@webdevelopment');
 Route::get('/e-maintenance', 'PagesController@emaintenance');
 Route::get('/e-cleaning', 'PagesController@ecleaning');
-Route::get('/home', 'HomeController@index');
+Route::get('/up', 'UPController@upHome');
 
 Auth::routes();
