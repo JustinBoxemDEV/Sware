@@ -244,3 +244,21 @@ table{
     height: 10%;
     text-align: center;
 }
+
+.up-panel-main{
+    width: 150%;
+}
+
+.up-panel-body{
+    min-height: 100px;
+}
+
+.up-panel-box{
+    width: 33.33%;
+    min-height: 200px;
+}
+
+.card-button{
+    border: solid grey;
+    border-width: 1px;
+}
