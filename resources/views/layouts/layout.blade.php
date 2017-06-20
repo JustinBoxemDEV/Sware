@@ -77,7 +77,8 @@
                                 @else
                                 <a href="/inlog" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">[ : : <span class="glyphicon glyphicon-user" aria-hidden="true"></span> {{ Auth::user()->name }} : : ] <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/up">[ : : Mijn overzicht : : ]</a></li>
+                                    <li><a href="/up">[ : : Mijn dashboard : : ]</a></li>
+                                    <li><a href="/up-transaction-history">[ : : Mijn transactieoverzicht : : ]</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li>
                                         <a href="{{ route('logout') }}"

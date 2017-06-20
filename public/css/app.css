@@ -259,6 +259,6 @@ table{
 }
 
 .card-button{
-    border: solid grey;
-    border-width: 1px;
+    padding-top: 5px;
+    font-size: 300%;
 }

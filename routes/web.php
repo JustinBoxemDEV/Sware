@@ -18,5 +18,6 @@ Route::get('/webdevelopment', 'PagesController@webdevelopment');
 Route::get('/e-maintenance', 'PagesController@emaintenance');
 Route::get('/e-cleaning', 'PagesController@ecleaning');
 Route::get('/up', 'UPController@upHome');
+Route::get('/bestel', 'UPController@getBestel');
 
 Auth::routes();

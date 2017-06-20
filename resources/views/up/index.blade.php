@@ -13,10 +13,16 @@
                             <div class="row">
                                 <div class="col-lg-2"></div>
                                 <div class="col-lg-8">
-                                    <div class="card" style="width: 20rem;">
-                                        <h1 class="card-button"><span class="glyphicon glyphicon-book" aria-hidden="true"></span></h1>
+                                    <div class="card">
+                                        <h1 class="card-button"><span class="glyphicon glyphicon-book" aria-hidden="true"></span><br>Pakketten<hr></h1>
                                         <div class="card-block">
-                                            <h2 class="card-title">Card title</h2>
+                                            <h2 class="card-title">
+                                                <a href="/pakketten/solo"><button class="btn btn-primary">[ : : Solo : : ]</button></a>
+                                                <br>
+                                                <a href="/pakketten/multi"><button class="btn btn-primary">[ : : Multi : : ]</button></a>
+                                                <br>
+                                                <a href="/sware-plus"><button class="btn btn-primary">[ : : &LT;S/ Ware&GT; Plus : : ]</button></a>
+                                            </h2>
                                         </div>
                                     </div>   
                                 </div>
@@ -27,10 +33,16 @@
                             <div class="row">
                                 <div class="col-lg-2"></div>
                                 <div class="col-lg-8">
-                                    <div class="card" style="width: 20rem;">
-                                        <h1 class="card-button"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></h1>
+                                    <div class="card">
+                                        <h1 class="card-button"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span><br>Services<hr></h1>
                                         <div class="card-block">
-                                            <h2 class="card-title">Card title</h2>
+                                            <h2 class="card-title">
+                                                <a href="/webdevelopment"><button class="btn btn-primary">&LT;/Webdevelopment&GT;</button></a>
+                                                <br>
+                                                <a href="/e-maintenance"><button class="btn btn-primary">&LT;/E-Maintenance&GT;</button></a>
+                                                <br>
+                                                <a href="/e-services"><button class="btn btn-primary">&LT;/E-Cleaning&GT;</button></a>
+                                            </h2>
                                         </div>
                                     </div>   
                                 </div>
@@ -41,10 +53,10 @@
                             <div class="row">
                                 <div class="col-lg-2"></div>
                                 <div class="col-lg-8">
-                                    <div class="card" style="width: 20rem;">
-                                        <h1 class="card-button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></h1>
+                                    <div class="card">
+                                        <h1 class="card-button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span><br>Bestelpagina<hr></h1>
                                         <div class="card-block">
-                                            <h2 class="card-title">Go2Shop</h2>
+                                            <h2 class="card-title"><a href="/bestel"><button class="btn btn-primary">[ : : Go2Shop : : ]</button></a></h2>
                                         </div>
                                     </div>   
                                 </div>
