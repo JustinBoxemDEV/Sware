@@ -33,7 +33,4 @@ class UPController extends Controller
         return view('up.index', compact('welcomeMsg'));
     }
     
-    public function getBestel(){
-        return view('bestel');
-    }
 }

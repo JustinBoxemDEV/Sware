@@ -56,7 +56,7 @@
                                     <div class="card">
                                         <h1 class="card-button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span><br>Bestelpagina<hr></h1>
                                         <div class="card-block">
-                                            <h2 class="card-title"><a href="/bestel"><button class="btn btn-primary">[ : : Go2Shop : : ]</button></a></h2>
+                                            <h2 class="card-title"><a href="/order/create"><button class="btn btn-primary">[ : : Go2Shop : : ]</button></a></h2>
                                         </div>
                                     </div>   
                                 </div>

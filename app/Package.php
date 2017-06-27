@@ -7,6 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 class Package extends Model
 {
     protected $fillable = [
-        'id', 'packageName', 'packagePrice',
+        'id', 'packageName',
     ];
+    
+    public function Order() {
+        return $this->hasMany(Order::class);
+    }
 }
