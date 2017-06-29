@@ -27,4 +27,16 @@ class PagesController extends Controller
     public function ecleaning(){
         return view('e-cleaning');
     }
+    
+    public function swareplus(){
+        return view('sware-plus');
+    }
+    
+    public function solo(){
+        return view('solo-pakket');
+    }
+    
+    public function multi(){
+        return view('multi-pakket');
+    }
 }

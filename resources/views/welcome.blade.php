@@ -81,8 +81,8 @@
                 </h3>
                 <br>
                 <h3 class="blockC-content-a">
-                    <a href="/pakketten/solo"><ul>[ : : Solo : : ]</ul></a>
-                    <a href="/pakketten/multi"><ul>[ : : Multi : : ]</ul></a>
+                    <a href="/solo"><ul>[ : : Solo : : ]</ul></a>
+                    <a href="/multi"><ul>[ : : Multi : : ]</ul></a>
                     <a href="/sware-plus"><ul>[ : : &LT;S/ Ware&GT; Plus : : ]</ul></a>
                 </h3>
                 <br>

@@ -18,7 +18,7 @@ class OrdersController extends Controller
      */
     public function index()
     {
-        $orders = Order::where('id', Auth::user()->id)->get();
+        $orders = Order::all();
         return view('order.index', compact('orders'));
     }
 
@@ -29,7 +29,7 @@ class OrdersController extends Controller
      */
     public function create()
     {
-        $user = Auth::user()->name;
+        $user = User::pluck('name','id');
         $package = Package::pluck('packageName','id');
         $service1 = Service::pluck('serviceName','id');
         $service2 = Service::pluck('serviceName','id');
@@ -92,7 +92,7 @@ class OrdersController extends Controller
     {
         $order = Order::all()->find($id);
         $order->update($request->all());
-        return redirect('/order/' . $id)->with('succes');
+        return redirect('/order' . $id)->with('succes');
     }
 
     /**
@@ -105,6 +105,6 @@ class OrdersController extends Controller
     {
         $order = Order::all()->find($id);
         $order->delete();
-        return redirect('/order/')->with('succes');
+        return redirect('/order')->with('succes');
     }
 }

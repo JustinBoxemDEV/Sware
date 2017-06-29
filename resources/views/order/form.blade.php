@@ -2,11 +2,11 @@
 @section('content')
 <div class="container">
     <div class="panel panel-default">
-        <div class="panel-heading">Uren toevoegingsscherm</div>
+        <div class="panel-heading">Bestelscherm</div>
         <div class="panel-body">
             <div class="row">
                 <div class="col-lg-6">{{ Form::label('userID', 'Klant:*') }}</div>
-                <div class="col-lg-6">{{ Form::text('userID', $user, array('disabled'))}}</div>
+                <div class="col-lg-6">{{ Form::select('userID', $user, array('disabled'))}}</div>
             </div>
             <div class="row">
                 <div class="col-lg-6">{{ Form::label('packageID', 'Pakket: *') }}</div>
@@ -24,11 +24,9 @@
                 <div class="col-lg-6">{{ Form::label('serviceID3', 'Service 3: *') }}</div>
                 <div class="col-lg-6">{{ Form::select('serviceID3', $service3)}}</div>
             </div> 
-            {{ Form::submit('Opslaan') }}
+            {{ Form::submit('Plaats bestelling') }}
             <h2 class="paymenthistoryh1"><a href="/order"><button class="btn btn-danger">[ : : Keer terug : : ]</button></a></h2>
         </div>
     </div>
 </div>
 @endsection
-
-
