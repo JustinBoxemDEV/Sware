@@ -17,9 +17,9 @@
                                         <h1 class="card-button"><span class="glyphicon glyphicon-book" aria-hidden="true"></span><br>Pakketten<hr></h1>
                                         <div class="card-block">
                                             <h2 class="card-title">
-                                                <a href="/pakketten/solo"><button class="btn btn-primary">[ : : Solo : : ]</button></a>
+                                                <a href="/solo"><button class="btn btn-primary">[ : : Solo : : ]</button></a>
                                                 <br>
-                                                <a href="/pakketten/multi"><button class="btn btn-primary">[ : : Multi : : ]</button></a>
+                                                <a href="/multi"><button class="btn btn-primary">[ : : Multi : : ]</button></a>
                                                 <br>
                                                 <a href="/sware-plus"><button class="btn btn-primary">[ : : &LT;S/ Ware&GT; Plus : : ]</button></a>
                                             </h2>
@@ -56,7 +56,7 @@
                                     <div class="card">
                                         <h1 class="card-button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span><br>Bestelpagina<hr></h1>
                                         <div class="card-block">
-                                            <h2 class="card-title"><a href="{{ url('/shop') }}"><button class="btn btn-primary">[ : : Go2Shop : : ]</button></a></h2>
+                                            <h2 class="card-title"><a href="{{ url('/order') }}"><button class="btn btn-primary">[ : : Go2Shop : : ]</button></a></h2>
                                         </div>
                                     </div>   
                                 </div>

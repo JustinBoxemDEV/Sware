@@ -26,8 +26,6 @@ Route::get('/multi', 'PagesController@multi');
 Route::get('/up', 'UPController@upHome');
 
 //Order associated routing
-Route::get('/shop', 'OrdersController@create');
-Route::post('/shop', 'OrdersController@store');
 Route::resource('/order', 'OrdersController');
 
 Auth::routes();

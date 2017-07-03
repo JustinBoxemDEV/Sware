@@ -5,7 +5,7 @@
          <h1>{{ Auth::user()->name }}'s bestel geschiedenis</h1>
         <h2 class="paymenthistoryh1">
             <a href="/up"><button class="btn btn-danger">[ : : Ga naar UP : : ]</button></a>
-            <a href="{{ url('/shop') }}"><button class="btn btn-success">[ : : Plaats bestelling : : ]</button></a>
+            <a href="{{ url('/order/create') }}"><button class="btn btn-success">[ : : Plaats bestelling : : ]</button></a>
         </h2>
     </div>
     <table class="display table table-bordered table-condensed table-responsive dynamic-table">
