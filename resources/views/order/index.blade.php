@@ -30,6 +30,7 @@
             <td>{{ $order->Service3->serviceName }}</td>
             <td>{{ $order->paid ? 'Ja' : 'Nee' }}</td>
             <td>{{ $order->created_at }}</td>
+            <td><a href="{{ url('/order', array('id' => $order->id)) }}"><button class="btn btn-toolbar"><span class="glyphicon glyphicon-info-sign">Betaaloverzicht</span></button></a></td>
             {!! Form::close() !!}
         </tr>
         @endforeach
