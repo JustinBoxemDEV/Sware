@@ -15,15 +15,18 @@ class ServicesTableSeeder extends Seeder
             [
                 [
                     'serviceName' => 'Webdevelopment',
-                    'servicePrice' => 25,
+                    'servicePriceSolo' => 25,
+                    'servicePriceMulti' => 20,
                 ],
                 [
                     'serviceName' => 'E-Maintenance',
-                    'servicePrice' => 10,
+                    'servicePriceSolo' => 10,
+                    'servicePriceMulti' => 8,
                 ],
                 [
                     'serviceName' => 'E-Cleaning',
-                    'servicePrice' => 5,
+                    'servicePriceSolo' => 5,
+                    'servicePriceMulti' => 4,
                 ],
             ]);
     }
