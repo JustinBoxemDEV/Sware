@@ -20,10 +20,10 @@
         <link href='//fonts.googleapis.com/css?family=Electrolize' rel='stylesheet'>
         
         <!-- Bootstrap Override CSS file -->
-        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="https://sware.nl/css/app.css">
         
         <!-- Favicon -->
-        <link rel="icon" type="image/png" href="/images/FavSware.png" />
+        <link rel="icon" type="image/png" href="https://sware.nl/images/FavSware.png" />
         
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,7 +31,7 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-        <script src="js/active_navbar.js"></script>
+        <script src="https://sware.nl/js/active_navbar.js"></script>
     </head>
     
     <body>

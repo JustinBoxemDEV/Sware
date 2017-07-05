@@ -8,7 +8,7 @@ use App\Order;
 class Service extends Model
 {
     protected $fillable = [
-        'id', 'serviceName', 'servicePriceSolo', 'servicePriceMulti',
+        'id', 'serviceName', 'servicePriceSolo', 'servicePriceMulti', 'servicePriceMembership',
     ];
     
     public function Order() {
