@@ -32,6 +32,8 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
         <script src="https://sware.nl/js/active_navbar.js"></script>
+        <!-- Form-toggle for selectbox at order page -->
+        <script src="https://sware.nl/js/form-toggle.js"></script>
     </head>
     
     <body>

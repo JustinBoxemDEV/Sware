@@ -14,6 +14,12 @@ class ServicesTableSeeder extends Seeder
         DB::table('services')->insert(
             [
                 [
+                    'serviceName' => 'Geen service geselecteerd',
+                    'servicePriceSolo' => 0,
+                    'servicePriceMulti' => 0,
+                    'servicePriceMembership' => 0,
+                ],
+                [
                     'serviceName' => 'Webdevelopment',
                     'servicePriceSolo' => 25,
                     'servicePriceMulti' => 20,
